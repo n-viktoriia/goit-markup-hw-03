@@ -1,0 +1,247 @@
+:root {
+  /* Colors */
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --white-background: #fff;
+  --modal-background: #fcfcfc;
+  /* Fonts */
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--text);
+  background-color: var(--white-background);
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+.list {
+  list-style: none;
+}
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* Logo */
+.logo {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--primary-brand);
+  text-transform: uppercase;
+}
+.logo-light {
+  color: var(--light);
+}
+.logo-dark {
+  color: var(--dark);
+}
+.logo-accent {
+}
+
+/* Header */
+.header {
+}
+.header-nav {
+}
+
+/* Navigation */
+.nav {
+}
+.nav-list {
+}
+.nav-list-item {
+  font-weight: 500;
+  color: var(--dark);
+}
+.nav-list-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-link:focus {
+  color: var(--pressed-state);
+}
+.nav-list-link:hover {
+  color: var(--pressed-state);
+}
+
+/* Address */
+.header-address {
+}
+.address {
+  font-style: normal;
+}
+.address-list {
+}
+.address-list-item {
+}
+.address-list-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.address-list-item:first-child > a:hover,
+.address-list-item:first-child > a:focus {
+  color: var(--pressed-state);
+}
+
+/* Introduction section */
+
+.section {
+}
+
+.introduction {
+  background-color: var(--dark);
+}
+
+.introduction-title {
+  text-align: center;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--white-background);
+}
+
+.introduction-btn {
+  background-color: var(--primary-brand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white-background);
+}
+
+.introduction-btn:hover,
+.introduction-btn:focus {
+  background-color: var(--pressed-state);
+}
+
+/* Benefits section */
+.benefits {
+}
+.benefits-title {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.benefits-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.explanation {
+}
+.explanation-title {
+  color: var(--dark);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.explanation-list {
+}
+.explanation-list-item {
+}
+.explanation-list-img {
+}
+.team {
+  background-color: var(--light);
+}
+.team-title {
+  color: var(--dark);
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-list {
+}
+.team-list-item {
+  background-color: var(--white-background);
+}
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.team-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Portfolio */
+.projects {
+}
+.projects-title {
+}
+.filter-list {
+}
+.filter-list-item {
+}
+.filter-list-btn {
+  font-family: var(--primary-font);
+  background-color: var(--light);
+  color: var(--primary-brand);
+  border: 1px solid var(--accent);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
+.projects-list {
+}
+.projects-list-item {
+}
+.projects-list-img {
+}
+.projects-list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--dark);
+}
+.projects-list-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--dark);
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light);
+}
